@@ -1,4 +1,4 @@
-var finances = [
+let finances = [
 ['Jan-2010', 867884],
 ['Feb-2010', 984655],
 ['Mar-2010', 322013],
@@ -87,6 +87,9 @@ var finances = [
 ['Feb-2017', 671099]
 ];
 
+console.log(finances.length)
+
+    
 //the total number of months included in the dataset
 //the net total amount of profit/losses over the entire period
 //the average of the changes in profit/losses over the entire period - total change in profits are from month to month and then find the average. 'total/number of months'
