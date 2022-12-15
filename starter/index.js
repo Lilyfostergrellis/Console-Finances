@@ -94,7 +94,22 @@ var totalMonths = finances.length;
 console.log("Total Months: " + totalMonths);
 // The total number of months included in the dataset.
 
-    
+var profits = []
+for (i=0; i<finances.length; i++){
+    profits.push(finances[i][1]);
+}
+
+var SumOfProfit = 0;
+
+for (var value of profits) {
+    SumOfProfit += value;
+}
+
+console.log("Total: $" + SumOfProfit);
+
+// The net total amount of Profits/Losses over the entire period.
+ 
+
 //the total number of months included in the dataset - done
 //the net total amount of profit/losses over the entire period
 //the average of the changes in profit/losses over the entire period - total change in profits are from month to month and then find the average. 'total/number of months'
